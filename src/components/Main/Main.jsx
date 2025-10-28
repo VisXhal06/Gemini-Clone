@@ -35,6 +35,21 @@ const Main = () => {
                     <img src={assets.code_icon} alt="" />
                 </div>
             </div>
+
+            <div className="main-bottom">
+                <div className="search-box">
+                    <input type="text" placeholder='Enter a prompt here '/>
+                    <div>
+                        <img src={assets.gallery_icon} alt="" />
+                        <img src={assets.mic_icon} alt="" />
+                        <img src={assets.send_icon} alt="" />
+                    </div>
+                </div>
+                <p className="bottom-info">
+                    Gemini is an AI-powered assistant that can help you with a variety of tasks, from answering questions to generating creative content. Try it out!
+                </p>
+            </div>
+
         </div>      
     </div>
   )
