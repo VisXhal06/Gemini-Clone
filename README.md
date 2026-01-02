@@ -31,30 +31,37 @@ Follow the steps below to set up and run the project locally.
 ```bash
 git clone https://github.com/VisXhal06/Gemini-Clone.git
 cd Gemini-Clone
+```
 
-🔹 2. Install Dependencies
+### 🔹 2. Install Dependencies
 
-bash
+```bash
 npm install
+```
 
-🔹 3. Set Up Environment Variables
-
+### 🔹 3. Set Up Environment Variables
 Create a .env.local (or .env) file in the root directory and add:
 
-env
+```env
 VITE_GEMINI_API_KEY="YOUR_GEMINI_API_KEY"
 💡 Replace YOUR_GEMINI_API_KEY with your actual Gemini API key.
+```
 
-🏃‍♂️ Running the Application
+### 🏃‍♂️ Running the Application
 Start the development server:
 
-bash
+```bash
 npm run dev
+```
 
 Open your browser and visit:
+```
 http://localhost:5173
+```
 
-🧠 How It Works
+### 🧠 How It Works
+
+```
 User enters a prompt in the chat input
 
 The message is sent to the Gemini API
@@ -62,8 +69,11 @@ The message is sent to the Gemini API
 The API generates an AI response
 
 The response is rendered in the chat window
+```
 
-🔮 Possible Enhancements
+### 🔮 Possible Enhancements
+
+```
 Chat history persistence
 
 Light / Dark theme toggle
@@ -75,9 +85,11 @@ Text-to-speech support
 User authentication
 
 Message streaming
+```
 
-🛠️ Project Structure
+### 🛠️ Project Structure
 
+```
 Gemini-Clone/
 ├── public/
 ├── src/
@@ -90,8 +102,9 @@ Gemini-Clone/
 ├── index.html
 ├── package.json
 └── vite.config.js
+```
 
-⭐ Contributing
+### ⭐ Contributing
 Contributions are welcome and appreciated! 🙌
 
 How to Contribute:
@@ -99,22 +112,23 @@ How to Contribute:
 
 🔀 Create a new branch
 
-bash
-
+```bash
 git checkout -b feature/YourFeature
 💻 Make your changes
+```
 
 ✨ Commit your changes
-
-bash
+```bash
 
 git commit -m "Add new feature"
 📤 Push to your branch
+```
 
-bash
+```bash
 
 git push origin feature/YourFeature
 📩 Open a Pull Request
+```
 
 📜 License
 This project is licensed under the MIT License.
